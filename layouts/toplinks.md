@@ -1,6 +1,6 @@
-Note: This is pretty beta, I'll flesh this out at a later time
-
 # Editing the top links in Magento
+
+Note: This is pretty beta, I'll flesh this out at a later time
 
 ## Crack open local.xml
 
