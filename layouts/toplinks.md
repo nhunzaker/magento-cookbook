@@ -2,7 +2,7 @@
 
 Note: This is pretty beta, I'll flesh this out at a later time
 
-**In local.xml**
+**In local.xml:**
 
     <layout version="0.1.0">
         <default>
