@@ -13,7 +13,7 @@ I don't know about you, but that's way more work than I care to do. I lean towar
 
 *in your local.xml layout file*
 
-`<layout version="0.1.0">
+<layout version="0.1.0">
 
     <default>
     
@@ -32,7 +32,7 @@ I don't know about you, but that's way more work than I care to do. I lean towar
         
     </default>
     
-</layout>`
+</layout>
 
 If you've read through that properly, a few red flags were probably raised in your mind. The code above runs an action to add an item to the head of the document (for all pages)
 which will find the modernizr.js script found in skin/[your_theme]/javascript. We set the <type> attribute to "skin_js" to tell Magento to look here, rather than the js folder found in the root of your installation.
