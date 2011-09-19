@@ -9,7 +9,8 @@ For example, let's say you want to add Modernizr to our site. You could throw it
 head.phtml template file and dropping it into [theme_directory]/template/page/html folder. This means that if the Magento team makes an update to this file, it will remain
 in it's older version until you make the change yourself. 
 
-To reiterate:
+###To reiterate:
+
 - The more files you add to your theme, the more items you have to support
 - The more files you modify, the greater risk you have to break something (which is often mindnumbing to fix, particularly in Magento)
 
