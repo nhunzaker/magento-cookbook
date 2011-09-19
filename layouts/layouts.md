@@ -22,7 +22,7 @@ I don't know about you, but given the massive file structure of Magento that is 
 - Less hassle keeping up with of Magento
 
 ### The cons:
-- You'll need to develop better understanding of Magento's layout.xml system
+- You'll need to develop better understanding of Magento's layout.xml system (hopefully I can help)
 - These files can become cumbersome for projects which require heavy modification
 
 
