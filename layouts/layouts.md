@@ -9,10 +9,14 @@ For example, let's say you want to add Modernizr to our site. You could throw it
 head.phtml template file and dropping it into [theme_directory]/template/page/html folder. This means that if the Magento team makes an update to this file, it will remain
 in it's older version until you make the change yourself. 
 
-I don't know about you, but that's way more work than I care to do. I lean towards the following.
+To reiterate:
+- The more files you add to your theme, the more items you have to support
+- The more files you modify, the greater risk you have to break something (which is often mindnumbing to fix, particularly in Magento)
 
-*in your local.xml layout file*
+I don't know about you, but that's way more work than I care to do. I much prefer the following.
 
+
+<!-- local.xml -->
 <layout version="0.1.0">
 
     <default>
@@ -21,11 +25,8 @@ I don't know about you, but that's way more work than I care to do. I lean towar
         
             <!-- Modernizr (For better browser detection to improve support) -->
             <action method="addItem">
-            
-                <type>skin_js</type>
-                
+                <type>skin_js</type>    
                 <name>javascript/modernizr.js</name>
-                
             </action>
             
         </reference>
