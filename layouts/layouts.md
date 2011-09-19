@@ -23,7 +23,7 @@ I don't know about you, but that's way more work than I care to do. I much prefe
     
         <reference name="head">
         
-            <!-- Modernizr (For better browser detection to improve support) -->
+            <!-- Modernizr (To assist with browser compliance and overall development health) -->
             <action method="addItem">
                 <type>skin_js</type>    
                 <name>javascript/modernizr.js</name>
