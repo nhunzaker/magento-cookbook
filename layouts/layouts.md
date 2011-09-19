@@ -2,7 +2,7 @@
 
 ## The cardinal rule: Use local.xml. Always. No really.
 
-Every element that has been configured in a [layout].xml file can be edited within a special layout xml document called "local.xml". 
+Every element that has been configured in a [layout].xml file can be edited within a special document called "local.xml". 
 Simply place this file within the "layouts" folder of your magento theme and start writing some XML (Please try not to vomit in the process).
 
 For example, let's say you want to add Modernizr to our site. You could throw it in the head.phtml file, but that will require duplicating the
