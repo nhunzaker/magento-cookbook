@@ -14,15 +14,24 @@ I don't know about you, but that's way more work than I care to do. I lean towar
 *in your local.xml layout file*
 
 `<layout version="0.1.0">
+
     <default>
+    
         <reference name="head">
+        
             <!-- Modernizr (For better browser detection to improve support) -->
             <action method="addItem">
+            
                 <type>skin_js</type>
+                
                 <name>javascript/modernizr.js</name>
+                
             </action>
+            
         </reference>
+        
     </default>
+    
 </layout>`
 
 If you've read through that properly, a few red flags were probably raised in your mind. The code above runs an action to add an item to the head of the document (for all pages)
