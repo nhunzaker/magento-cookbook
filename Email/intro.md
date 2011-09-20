@@ -36,4 +36,4 @@ Take a look at the "locating_files.md" file within this directory for help with 
 
 1. [The Html Email Boilerplate](http://htmlemailboilerplate.com/): This is pretty awesome, everyone doing email design should
 study this.
-2. [Magento Transactional Email Documentation](http://www.magentocommerce.com/wiki/modules_reference/english/mage_adminhtml/system_email_template/index)
+2. [Magento Transactional Email Documentation](http://www.magentocommerce.com/wiki/modules_reference/english/mage_adminhtml/system_email_template/index): This is basically a glorified list of variables you can embed in your emails, but you may find it useful.
