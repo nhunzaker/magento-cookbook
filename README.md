@@ -9,6 +9,7 @@ I'll be putting all of my recipes in here. Given the amount of Magento work I do
 - Write some more about editing layouts with local.xml
 - Cover the hierarchy of themes
 - Begin documenting how the Magneto API works (I may go stir crazy in the process, stay tuned)
+- Investigate why Magento email templates will only use base theme files (as opposed to your own).
 - Let's be honest, there's so much to do...
 
 ### Of Course...
