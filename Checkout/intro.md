@@ -1,16 +1,15 @@
 # Checkout Recipes
 
-## The mini cart (In the header on enterprise edition)
-
-* Note: This is also known as the cart summary *
+## The Cart Summary/Mini-Cart (In the header on Enterprise Edition)
 
 ### Configure Settings
 
-** You want to: **
+#### You want to: 
 
 1. Edit the number of items which display in the cart summary
 2. Disable/Enable the cart
 
+#### The solution:
 Both settings can be configured with in the Magento admin at the following location:
 
 `System > Configuration > Checkout (Under Sales Sidebar) > Shopping Cart Sidebar`
