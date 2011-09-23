@@ -28,8 +28,17 @@ Custom variables can be accessed in a number of ways:
 
 #### Access information:
 
-`$myCustomVarHTML = Mage::getModel('core/variable')->loadByCode('variable_code')->getValue('html')`
-`$myCustomVarHTML = Mage::getModel('core/variable')->loadByCode('variable_code')->getValue('text')`
+##### Get the html:
+`Mage::getModel('core/variable')->loadByCode('variable_code')->getValue('html')`
+
+##### Get the text:
+`Mage::getModel('core/variable')->loadByCode('variable_code')->getValue('text')`
+
+##### Get the name:
+`Mage::getModel('core/variable')->loadByCode('variable_code')->getName()`
+
+##### Get the codename:
+`Mage::getModel('core/variable')->loadByCode('variable_code')->getCode()`
 
 
 ## In email templates:
