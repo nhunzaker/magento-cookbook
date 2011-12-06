@@ -12,7 +12,7 @@ The `add` method of the `Validation` object is used to add custom validations fo
 
 ```
 Validation.add('target-class', 'Validation error text', function(value) {
-    return (v === [your test case]);
+    return (value === [your test case]);
 });
 ```
 
