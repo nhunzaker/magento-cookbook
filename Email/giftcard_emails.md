@@ -22,8 +22,6 @@ You can configure the settings at:
 
 - Gift Message: `{{var gift_message|escape|nl2br}}`
 
----
-
 #### From the source:
 
 The following list of variables can be found in full detail on `line 200` at `app/code/core/Enterprise/GiftCard/Observer.php`:
