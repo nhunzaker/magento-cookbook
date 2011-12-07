@@ -70,4 +70,4 @@ $templateData = array(
 
 ### Other lists of variables
 
-- [Defining Transactional Variables](http://go.magento.com/support/kb/entry/name/defining-transactional-variables/)
+- [Defining Transactional Variables](http://go.magento.com/support/kb/entry/name/defining-transactional-variables/): Wonderful link containing all of the available email variables
