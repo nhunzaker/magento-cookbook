@@ -1,6 +1,21 @@
 # Constructing Giftcard Emails
 
-## List of variables
+## What's in here:
+
+1. How to enable custom email templates for giftcards
+2. List of giftcard variables
+
+---
+
+### How to enable custom email templates for giftcards
+
+You can configure the settings at:
+
+`System > Configuration > Sales > Gift Cards > Gift Card Email Settings `
+
+---
+
+### List of variables
 
 The following list of variables can be found in full detail on `line 200` at `app/code/core/Enterprise/GiftCard/Observer.php`:
 
