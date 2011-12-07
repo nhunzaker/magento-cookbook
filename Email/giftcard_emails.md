@@ -72,5 +72,4 @@ $templateData = array(
 
 - [http://www.magentocommerce.com/wiki/international_wikis/french/list_of_variables_for_mail_template](http://www.magentocommerce.com/wiki/international_wikis/french/list_of_variables_for_mail_template)
 - [http://www.magentocommerce.com/wiki/modules_reference/english/mage_adminhtml/system_email_template/index](http://www.magentocommerce.com/wiki/modules_reference/english/mage_adminhtml/system_email_template/index)
-
-
+- [http://go.magento.com/support/kb/entry/name/defining-transactional-variables/](http://go.magento.com/support/kb/entry/name/defining-transactional-variables/)
