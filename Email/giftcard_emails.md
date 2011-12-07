@@ -21,6 +21,7 @@ You can configure the settings at:
 #### Snippets:
 
 - Gift Message: `{{var gift_message|escape|nl2br}}`
+- Link to giftcard (with code): `{{var giftcards}}`
 
 
 #### From the source:
