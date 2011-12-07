@@ -4,6 +4,7 @@
 
 1. How to enable custom email templates for giftcards
 2. List of giftcard variables
+3. Other lists of variables
 
 ---
 
@@ -17,7 +18,13 @@ You can configure the settings at:
 
 ### List of variables
 
+#### Snippets:
+
 - Gift Message: `{{var gift_message|escape|nl2br}}`
+
+---
+
+#### From the source:
 
 The following list of variables can be found in full detail on `line 200` at `app/code/core/Enterprise/GiftCard/Observer.php`:
 
@@ -60,3 +67,11 @@ $templateData = array(
     'is_redeemable'          => $isRedeemable,
 );
 ```
+---
+
+### Other lists of variables
+
+- [http://www.magentocommerce.com/wiki/international_wikis/french/list_of_variables_for_mail_template](http://www.magentocommerce.com/wiki/international_wikis/french/list_of_variables_for_mail_template)
+- [http://www.magentocommerce.com/wiki/modules_reference/english/mage_adminhtml/system_email_template/index](http://www.magentocommerce.com/wiki/modules_reference/english/mage_adminhtml/system_email_template/index)
+
+
