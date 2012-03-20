@@ -5,6 +5,7 @@ This problem is caused when the setting `Use Secure URLs in [frontend/admin]` ha
 1. Visit `System » Configuration`
 2. Select `Web » Secure`
 3. In the field `Use Secure URLs in [frontend/admin]` set the value to "No"
+4. Under Advanced > Admin > Security set `Add Secret Key to URLs` to "No"
 
 ## Notes:
 
